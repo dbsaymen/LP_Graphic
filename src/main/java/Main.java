@@ -13,7 +13,7 @@ public class Main extends JFrame {
 
     String[] GoalString = { "Max", "Min"};
     JButton calculationBtn = new JButton("Calculer");
-    JButton b2 = new JButton("Go");
+    JButton b2 = new JButton("Ajouter Contraintes");
     JComboBox Goals = new JComboBox(GoalString);
     JPanel container = new JPanel(new GridBagLayout());
     JPanel ConstraintsContainer = new JPanel(new GridBagLayout());
@@ -141,13 +141,6 @@ public class Main extends JFrame {
 
 
     public static void main(String[] args){
-        //your code here!
-
         Main m=new Main();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }

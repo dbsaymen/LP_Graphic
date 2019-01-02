@@ -171,20 +171,4 @@ public class Graphe extends JFrame {
         return new Color(R,G,B);
     }
 
-
-
-
-
-
-    /*public static void main(String[] args) {
-        double c[]={3,1};
-        double z0=0;
-        double A[][] ={{-2,1},{1,0},{-1,1},{-2,-1}};
-        double b[]={4,6,-5,-2};
-        String op[]={"<=","<=",">=","<="};
-        double max=18;
-        double result=34;
-
-        Graphe Draw = new Graphe(z0,c,A,b,result,max);
-    }*/
 }

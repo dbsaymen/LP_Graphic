@@ -12,7 +12,7 @@ public class ContraintesFrame extends JFrame {
     JComboBox[] operationsBox;
 
     JPanel container = new JPanel(new GridBagLayout());
-    JButton validationBtn = new JButton("Validate");
+    JButton validationBtn = new JButton("Valider");
     JTextField [][] JtfTable;
 
     int nbContraintes;
