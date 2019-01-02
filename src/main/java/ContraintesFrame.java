@@ -41,7 +41,7 @@ public class ContraintesFrame extends JFrame {
 
         for (int i = 0; i < nbContraintes; i++) {
             for (int j = 0; j < 3; j++) {
-                JtfTable[i][j]=new JTextField("0");
+                JtfTable[i][j]=new JTextField("");
                 JtfTable[i][j].setPreferredSize(new Dimension(30, 30));
             }
         }

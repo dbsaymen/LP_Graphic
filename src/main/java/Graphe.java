@@ -18,8 +18,6 @@ public class Graphe extends JFrame {
 
 
     public Graphe(double z0, double Ct[], double M[][], double b[], double Solution, double maxPt) {
-        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
-        setLocation(dim.width/2-this.getSize().width/2, dim.height/2-this.getSize().height/2);
         setTitle("DGIMA");
         setSize(460,560);
         setResizable(false);
